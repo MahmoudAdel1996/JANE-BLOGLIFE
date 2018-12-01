@@ -1,0 +1,456 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Oswald", "Segoe UI", "Arial", "sans-serif";
+}
+
+body {
+    background: #f1f1f1;
+    position: relative
+}
+
+nav {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    overflow: hidden
+}
+
+nav img {
+    float: left;
+    padding: 10px;
+    width: 25px;
+    height: 25px
+}
+
+nav a:last-child {
+    float: right
+}
+
+nav a img:hover {
+    background: #555
+}
+
+/*-------------------------------------*/
+
+.container {
+    max-width: 1366px;
+    margin: auto;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+/*-------------------------------------*/
+
+header {
+    background: #fff;
+    height: 200px
+}
+
+header h1 {
+    margin-top: 40px;
+    font-size: 45px;
+    text-align: center;
+    padding: 50px 0 10px 0;
+}
+
+header article {
+    text-align: center;
+    padding: 5px;
+}
+
+header article span {
+    background: #000;
+    color: #fff;
+    padding: 5px;
+}
+
+/*-------------------------------------*/
+
+.img-header {
+    position: relative;
+    margin-bottom: 40px
+}
+
+.img-header img {
+    max-width: 100%
+}
+
+.img-header .button {
+    color: #fff;
+    position: absolute;
+    top: 42%;
+    left: 1%;
+}
+
+.img-header .button h1,
+.img-header .button h2,
+.img-header .button button {
+    margin: 10px;
+    font-size: 47px;
+}
+
+.img-header .button button {
+    padding: 10px 25px;
+    opacity: 0.6;
+    font-size: 17px;
+    border-style: hidden
+}
+
+.img-header .button button:hover {
+    background: #fff;
+    opacity: 0.8;
+    cursor: pointer
+}
+
+/*-------------------------------------*/
+.post {
+    box-sizing: border-box;
+    max-width: 66.66666%;
+    float: left;
+    padding-right: 20px;
+}
+
+.post .post-one {
+    box-sizing: border-box;
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.post .post-one:last-child {
+    margin-bottom: 0;
+}
+
+.post .post-one h2,
+.post .one {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.post .post-one p span {
+    opacity: 0.6;
+}
+
+.post .post-one img {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.post .post-one article {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.post .post-one .button {
+    overflow: hidden
+}
+
+.post .post-one .button .like {
+    float: left;
+    background: #fff;
+    border: 1px solid #5f5f5f;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.post .post-one .button .like:hover {
+    background: #BfBfBf;
+}
+
+.post .post-one .button .rep {
+    float: right;
+    background: #000;
+    border: 1px solid #5f5f5f;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold
+}
+
+.post .post-one .button .rep:hover {
+    background: #BfBfBf;
+    color: #000
+}
+
+.post .post-one .hide {
+    display: none;
+    border-top: 1px solid #afafaf;
+    margin-top: 50px;
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+.post .post-one .toggle {
+    display: block;
+}
+
+.rep-one {
+    clear: both;
+}
+
+.post .post-one .hide img {
+    box-sizing: border-box;
+    width: 10%;
+    float: left
+}
+
+.post .post-one .hide .content {
+    box-sizing: border-box;
+    width: 90%;
+    float: left;
+    overflow: hidden;
+    padding: 10px 0 0 30px;
+    text-align: left
+}
+
+.post .post-one .hide .content span {
+    opacity: 0.5;
+    font-size: 15px;
+}
+
+.post .post-one .hide .content p {
+    float: left;
+    padding: 10px
+}
+
+.post .post-one .hide h2 .prag {
+    opacity: 1;
+    float: left
+}
+
+/*---------------general aside-----------------------------------------------------------------*/
+
+aside {
+    float: right;
+    box-sizing: border-box;
+    max-width: 33.33334%;
+    padding-left: 20px
+}
+
+aside section {
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    line-height: 2;
+    overflow: hidden
+}
+
+aside section:last-child {
+    margin-bottom: 0;
+}
+
+aside section .two-side {
+    background: #000;
+    padding: 10px;
+    color: #fff;
+}
+
+/*---------------First-side-------------------*/
+
+aside section .first {
+    width: 100%;
+    display: block
+}
+
+aside section .first-side {
+    background: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+/*---------------Popular-------------------*/
+
+aside section .popular {
+    padding: 15px;
+    background: #fff;
+}
+
+aside section .popular .rep-two {
+    border-bottom: 1px solid #afafaf;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+aside section .popular .rep-two:last-child {
+    border-bottom: none
+}
+
+aside section .popular .rep-two:hover {
+    background: #dfdfdf;
+}
+
+aside section .popular .rep-two img {
+    width: 18%;
+    display: block;
+    float: left;
+}
+
+aside section .popular .rep-two .content {
+    box-sizing: border-box;
+    float: left;
+    width: 82%;
+    padding-left: 10px;
+    font-size: 13px
+}
+
+/*---------------Advertise-Follow-Me-Subscribe------------------*/
+
+aside section .Advertise,
+.Follow-Me,
+.Subscribe {
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+aside section .Advertise div {
+    background: #F1F1F1;
+    padding: 75px
+}
+
+/*---------------Tags----------------------*/
+
+aside section .popular span {
+    box-sizing: border-box;
+    background: #f5f5f5;
+    padding: 3px;
+    margin: 1px;
+    font-size: 15px
+}
+
+aside section .popular span:first-child {
+    background: #000;
+    color: #fff;
+    padding: 2px 5px
+}
+
+/*---------------Subscribe-Follow-Me---------------------*/
+
+aside section .popular .Inspiration {
+    width: 46%;
+    margin: 6px
+}
+
+.Follow-Me,
+.Subscribe {
+    text-align: left
+}
+
+aside section .Follow-Me img {
+    width: 6%;
+    padding-left: 1px;
+}
+
+aside section .Follow-Me img:hover {
+    opacity: 0.6
+}
+
+aside section .Subscribe article {
+    margin-bottom: 10px
+}
+
+aside section .Subscribe {
+    padding: 15px
+}
+
+aside section .Subscribe form input,
+aside section .Subscribe button {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px
+}
+
+aside section .Subscribe button {
+    background: #f44336;
+    color: #fff;
+    border-style: hidden;
+    cursor: pointer
+}
+
+aside section .Subscribe button:hover {
+    background: #F1F1F1;
+    color: #000;
+}
+
+/*---------------Start footer----------------------*/
+
+footer {
+    height: 200px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+footer div {
+    position: relative;
+    top: 100px;
+}
+
+/*---------------End footer----------------------*/
+.su{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+}
+.su .sub {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+}
+
+.sub h2 {
+    text-align: center;
+    box-sizing: border-box;
+    background: #000;
+    width: 100%;
+    color: #fff;
+    padding: 5px
+}
+
+.sub form {
+    box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #5f5f5f
+}
+
+.sub form label {
+    box-sizing: border-box;
+    padding-bottom: 15px
+}
+
+.sub form input {
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.sub form input:last-child {
+    margin-bottom: 0;
+}
+
+.sub form .subm {
+    background: #f44336;
+    border: none;
+    color: #fff;
+}
+
+.sub form .subm:hover {
+    background: #e6e6e6;
+    color: #000;
+    cursor: pointer;
+}
